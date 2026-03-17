@@ -1,0 +1,27 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Analyzer outputs (keep folder but ignore generated files)
+results/*.csv
+results/*.txt
+results/*.png
+!results/.gitkeep
